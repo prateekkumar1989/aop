@@ -1,0 +1,7 @@
+<!-- aop.xml -->
+<aspectj>
+    <aspects>
+        <aspect name="aspects.RandomAspect"/>
+    </aspects>
+    <weaver options="-Xset:weaveJavaxPackages=true"></weaver>
+</aspectj>
